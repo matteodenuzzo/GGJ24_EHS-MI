@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41eadd33030624a4d9c651b1629e2667, type: 3}
+  m_Name: Audio Database
+  m_EditorClassIdentifier: 
+  elements:
+  - id: LifeGoTo2Sounds
+    info:
+      clip: {fileID: 8300000, guid: a321982338149f24cbfc43ca908a69a1, type: 3}
+      loop: 0
+      channelType: 4
+  - id: LifeGoTo1Sounds
+    info:
+      clip: {fileID: 8300000, guid: 25090aee29a7fc044a36186adf6e6c88, type: 3}
+      loop: 0
+      channelType: 4
+  - id: LifeGoTo0Sounds
+    info:
+      clip: {fileID: 8300000, guid: 34167f7b699e08349969ba8212cb95c6, type: 3}
+      loop: 0
+      channelType: 4
