@@ -8,6 +8,7 @@ public class Mn_MicrofoneController : MonoBehaviour
 {
     private bool hasMicrofone = true;
     private bool check = true;
+    private bool invincible = false;
     [SerializeField] private float invicibilityTime = 1.0f;
     [SerializeField] private Mn_HealthComponent healthComponent;
     [SerializeField] private GameObject microfone;
@@ -26,7 +27,7 @@ public class Mn_MicrofoneController : MonoBehaviour
             return;
         }
         
-        if (!healthComponent.vulnerable)
+        if (invincible)
         {
             return;
         }
@@ -35,7 +36,7 @@ public class Mn_MicrofoneController : MonoBehaviour
         {
             hasMicrofone = false;
             SpawnMicrofoneInANewPosition();
-            healthComponent.vulnerable = true;
+            invincible = true;
             StartCoroutine(InvincibilityTimer());
         }
         else
@@ -51,7 +52,7 @@ public class Mn_MicrofoneController : MonoBehaviour
     public IEnumerator InvincibilityTimer()
     {
         yield return new WaitForSeconds(invicibilityTime);
-        healthComponent.vulnerable = false;
+        invincible = false;
     }
 
     public void SpawnMicrofoneInANewPosition()

@@ -15,16 +15,16 @@ MonoBehaviour:
   elements:
   - id: LifeGoTo2Sounds
     info:
-      clip: {fileID: 8300000, guid: a321982338149f24cbfc43ca908a69a1, type: 3}
+      clip: {fileID: 8300000, guid: b0860909cc26df1439605cd1d41e4b4e, type: 3}
       loop: 0
       channelType: 4
   - id: LifeGoTo1Sounds
     info:
-      clip: {fileID: 8300000, guid: 25090aee29a7fc044a36186adf6e6c88, type: 3}
+      clip: {fileID: 8300000, guid: 88fd0ef3e56675b449b480831798ef22, type: 3}
       loop: 0
       channelType: 4
   - id: LifeGoTo0Sounds
     info:
-      clip: {fileID: 8300000, guid: 34167f7b699e08349969ba8212cb95c6, type: 3}
+      clip: {fileID: 8300000, guid: ecfe12f885bae8a45bf17046ba05f4ad, type: 3}
       loop: 0
       channelType: 4
