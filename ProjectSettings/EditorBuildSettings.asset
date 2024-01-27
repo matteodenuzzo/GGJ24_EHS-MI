@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuScene.unity
     guid: bede9fe84ec4605458d0a1382694041e
   - enabled: 1
-    path: Assets/Scenes/ShootingTry.unity
+    path: Assets/Scenes/Game.unity
     guid: 53e998c0c18bb6a4b8b56c9210816521
   - enabled: 1
     path: Assets/Scenes/LoseScene.unity
