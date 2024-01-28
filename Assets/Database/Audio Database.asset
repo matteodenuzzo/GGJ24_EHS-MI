@@ -28,3 +28,8 @@ MonoBehaviour:
       clip: {fileID: 8300000, guid: ecfe12f885bae8a45bf17046ba05f4ad, type: 3}
       loop: 0
       channelType: 4
+  - id: Player_FootSteps
+    info:
+      clip: {fileID: 8300000, guid: 9f231c4438b2a9f4d90588cc30e8d357, type: 3}
+      loop: 1
+      channelType: 4

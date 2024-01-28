@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18d1000a96193b4da054de9f0d8ca58, type: 3}
+  m_Name: WorldDatabase
+  m_EditorClassIdentifier: 
+  elements:
+  - id: lorem
+    info:
+      worldType: {fileID: 11400000, guid: 04ad8cb08582b224c95c86d6817dbc34, type: 2}
+      worldName: lorem
+      damage: 15
+  - id: ante
+    info:
+      worldType: {fileID: 11400000, guid: 2b13b02eafdc9dc499921e385c387af5, type: 2}
+      worldName: ante
+      damage: 15
+  - id: eget
+    info:
+      worldType: {fileID: 11400000, guid: e41992690d5ca2b4a89799dfde75d49b, type: 2}
+      worldName: eget
+      damage: 15
+  - id: adipiscing
+    info:
+      worldType: {fileID: 11400000, guid: f3c2f762f566742409eabdede1badd32, type: 2}
+      worldName: adipiscing
+      damage: 15
+  - id: felis
+    info:
+      worldType: {fileID: 11400000, guid: 04ad8cb08582b224c95c86d6817dbc34, type: 2}
+      worldName: felis
+      damage: 15
+  - id: porttitor
+    info:
+      worldType: {fileID: 11400000, guid: 2b13b02eafdc9dc499921e385c387af5, type: 2}
+      worldName: porttitor
+      damage: 15
+  - id: tellus
+    info:
+      worldType: {fileID: 11400000, guid: e41992690d5ca2b4a89799dfde75d49b, type: 2}
+      worldName: tellus
+      damage: 15
+  - id: aenean
+    info:
+      worldType: {fileID: 11400000, guid: f3c2f762f566742409eabdede1badd32, type: 2}
+      worldName: aenean
+      damage: 15
