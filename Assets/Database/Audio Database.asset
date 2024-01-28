@@ -32,4 +32,4 @@ MonoBehaviour:
     info:
       clip: {fileID: 8300000, guid: 9f231c4438b2a9f4d90588cc30e8d357, type: 3}
       loop: 1
-      channelType: 4
+      channelType: 3
